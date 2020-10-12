@@ -7,7 +7,7 @@ namespace TeoremaBayes.negocio
         //CONSTANTES
         public const double P_PARCIAL = 0.3333;
         public const double P_MATERIA = 0.3333;
-        //Propiedades
+        //Propiedades 0 1 2
         public double[] materias_a = new double[9];
         public double[] materias_r = new double[9];
 
@@ -108,7 +108,7 @@ namespace TeoremaBayes.negocio
          */
         public double teorema1()
         {
-            double p = (materias_a[4] * P_PARCIAL) /
+            double p = (materias_r[4] * P_PARCIAL) /
                 ((materias_r[0] * P_PARCIAL)+
                 (materias_r[1] * P_PARCIAL)+
                 (materias_r[2] * P_PARCIAL)+

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Windows.Forms;
 using TeoremaBayes.entidades;
@@ -9,11 +8,13 @@ namespace TeoremaBayes
 {
     public partial class VistaPrincipal : Form
     {
+        //Obtener los datos de App.Config
         string[] arr2 = ConfigurationManager.AppSettings["Enunciado"].Split(',');
         string[] arr = ConfigurationManager.AppSettings["Pregunta"].Split(',');
         public VistaPrincipal()
         {
             InitializeComponent();
+            //Cargar el combobox
             cbPregunta.DataSource = arr;
             //Cargar los elementos en el GRID
             cargarDGV();
@@ -51,8 +52,11 @@ namespace TeoremaBayes
             }
         }
 
+        //EVENTOS
+
         private void btnTeorema_Click(object sender, EventArgs e)
         {
+            //Obtener la probabilidad del N enunciado
             Probabilidad _p = new Probabilidad();
             if (cbPregunta.SelectedIndex == 0)
             {
@@ -80,9 +84,7 @@ namespace TeoremaBayes
             //    MessageBox.Show("PR: " + _p.materias_r[i]);
             //}
         }
-
-        //EVENTOS
-
+        //Cambiar unicamente el texto
         private void cbPregunta_SelectedIndexChanged(object sender, EventArgs e)
         {
             txtProbabilidadEnunciado.Text = arr2[cbPregunta.SelectedIndex];
