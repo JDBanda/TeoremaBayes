@@ -2,8 +2,8 @@ C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\bin\Debug\TeoremaBayes.exe.co
 C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\bin\Debug\TeoremaBayes.exe
 C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\bin\Debug\TeoremaBayes.pdb
 C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\obj\Debug\TeoremaBayes.csprojAssemblyReference.cache
-C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\obj\Debug\TeoremaBayes.Form1.resources
 C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\obj\Debug\TeoremaBayes.Properties.Resources.resources
 C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\obj\Debug\TeoremaBayes.csproj.GenerateResource.cache
 C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\obj\Debug\TeoremaBayes.exe
 C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\obj\Debug\TeoremaBayes.pdb
+C:\Users\HP\source\repos\TeoremaBayes\TeoremaBayes\obj\Debug\TeoremaBayes.VistaPrincipal.resources

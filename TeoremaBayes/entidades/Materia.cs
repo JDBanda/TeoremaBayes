@@ -12,7 +12,6 @@ namespace TeoremaBayes.entidades
         public double parcial1 { get; set; }
         public double parcial2 { get; set; }
         public double parcial3 { get; set; }
-        public double promedio { get; set; }
 
         public Materia(string nombre, double parcial1, double parcial2, double parcial3)
         {
